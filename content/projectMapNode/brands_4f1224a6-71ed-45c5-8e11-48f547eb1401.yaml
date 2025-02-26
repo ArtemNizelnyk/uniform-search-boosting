@@ -1,0 +1,8 @@
+id: 4f1224a6-71ed-45c5-8e11-48f547eb1401
+name: brands
+order: 500
+path: /:locale/brands
+type: placeholder
+pathSegment: brands
+data: {}
+projectMapId: 537d11ff-9ebe-4420-9682-36694477e2f9

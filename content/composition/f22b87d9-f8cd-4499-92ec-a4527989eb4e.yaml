@@ -1,0 +1,23 @@
+composition:
+  _name: recomendations
+  _id: f22b87d9-f8cd-4499-92ec-a4527989eb4e
+  _slug: recomendations
+  type: page
+  parameters:
+    pageTitle:
+      type: text
+      locales:
+        en: recommendations
+  slots:
+    pageHeader:
+      - _id: adceffa3-67f2-4618-a765-6d0b5a2917e7
+        type: header
+        _pattern: 021762f3-8a06-41b4-a4fb-08a837c74415
+    pageContent:
+      - _id: 29959502-fd51-4fb8-bd2f-b3d495ca5ebd
+        type: recommendationsComponent
+  _locales:
+    - en
+created: '2025-02-26T12:11:51.777042+00:00'
+modified: '2025-02-26T20:20:42.455076+00:00'
+pattern: false
