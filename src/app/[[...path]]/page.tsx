@@ -1,10 +1,9 @@
-import { PageParameters, UniformComposition, retrieveRoute as uniformRetrieveRoute } from '@uniformdev/canvas-next-rsc';
+import { PageParameters, UniformComposition } from '@uniformdev/canvas-next-rsc';
 import { emptyPlaceholderResolver } from '@uniformdev/csk-components/components/canvas/emptyPlaceholders';
 import { DesignExtensionsProvider } from '@uniformdev/design-extensions-tools/components/providers/server';
 import { componentResolver } from '@/components';
 import locales from '@/i18n/locales.json';
 import retrieveRoute from '@/utils/retrieveRoute';
-import { draftMode } from 'next/headers';
 
 export default async function Home(props: PageParameters) {
   const route = await retrieveRoute(props, locales.defaultLocale);

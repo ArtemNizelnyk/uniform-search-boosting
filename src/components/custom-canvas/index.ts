@@ -1,8 +1,8 @@
 import { ComponentMapping } from '@uniformdev/csk-components/utils/createComponentResolver';
 import Container from './Container';
 import CustomComponent from './CustomComponent';
-import Recommendations from './klepiere/Recommendations/Recommendations';
 import EnrichmentScoreComponent from './klepiere/EnrichmentScore/EnrichmentScoreComponent';
+import Recommendations from './klepiere/Recommendations/Recommendations';
 
 // Here, you can add your own component or customize an existing CSK component with your logic or styles.
 export const customComponentsMapping: ComponentMapping = {
